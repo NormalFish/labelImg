@@ -1,5 +1,7 @@
 LabelImg
 ========
+此版本为默认打包汉化版本 修复了一些小bug
+========
 
 .. image:: https://img.shields.io/pypi/v/labelimg.svg
         :target: https://pypi.python.org/pypi/labelimg
