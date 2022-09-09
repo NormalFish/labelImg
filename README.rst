@@ -119,6 +119,21 @@ Windows + Anaconda
     pyrcc5 -o libs/resources.py resources.qrc
     python labelImg.py
     python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
+    
+Windows 编译成exe文件
+^^^^^^^^^^^^^^^^^^
+
+下载并安装 `Anaconda <https://www.anaconda.com/download/#download>`__ (Python 3+)
+
+打开 Anaconda Prompt 然后到 `labelImg <#labelimg>`__ 目录
+
+.. code:: shell
+
+    conda install pyqt=5
+    conda install -c anaconda lxml
+    pyrcc5 -o libs/resources.py resources.qrc
+    pip install pyinstaller
+    pyinstaller -F --paths=[subfolder] [subfolder/labelImg.py]
 
 Get from PyPI but only python3.0 or above
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
