@@ -33,7 +33,7 @@ LabelImg 是图像标注工具，它是用python 和 QT 写成的.
 
 `展示影片 <https://youtu.be/p0nR2YsCY_U>`__
 
-安裝
+安装
 ------------------
 
 
@@ -76,7 +76,7 @@ Python 3 + Qt5
 
 Python 3 Virtualenv (推荐)
 
-Virtualenv 可以避免版本和依赖問題
+Virtualenv 可以避免版本和依赖问题
 
 .. code:: shell
 
@@ -91,11 +91,11 @@ Virtualenv 可以避免版本和依赖問題
 Windows
 ^^^^^^^
 
-安裝 `Python <https://www.python.org/downloads/windows/>`__,
+安装 `Python <https://www.python.org/downloads/windows/>`__,
 `PyQt5 <https://www.riverbankcomputing.com/software/pyqt/download5>`__
 和 `install lxml <http://lxml.de/installation.html>`__.
 
-安裝并到 `labelImg <#labelimg>`__ 目录
+安装并到 `labelImg <#labelimg>`__ 目录
 
 .. code:: shell
 
@@ -108,7 +108,7 @@ Windows
 Windows + Anaconda
 ^^^^^^^^^^^^^^^^^^
 
-下载並安裝 `Anaconda <https://www.anaconda.com/download/#download>`__ (Python 3+)
+下载并安装 `Anaconda <https://www.anaconda.com/download/#download>`__ (Python 3+)
 
 打开 Anaconda Prompt 然后到 `labelImg <#labelimg>`__ 目录
 
@@ -154,25 +154,25 @@ Use Docker
 使用方法
 -----
 
-你可以先产生标签
+你可以先创建标签
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-档案
+修改这个档案
 `data/predefined\_classes.txt <https://github.com/tzutalin/labelImg/blob/master/data/predefined_classes.txt>`__
 
 快捷键
 ~~~~~~~
 
 +--------------------+--------------------------------------------+
-| Ctrl + u           | 读取所有图片從每個目录                     |
+| Ctrl + u           | 从每个目录读取所有图片                     |
 +--------------------+--------------------------------------------+
-| Ctrl + r           | 改变标识結果的存档目录                     |
+| Ctrl + r           | 改变标识结果的存档目录                     |
 +--------------------+--------------------------------------------+
 | Ctrl + s           | 存档                                       |
 +--------------------+--------------------------------------------+
 | Ctrl + d           | 复制目前的标签和物件的区块                 |
 +--------------------+--------------------------------------------+
-| Ctrl + Shift + d   | 刪除目前图片                               |
+| Ctrl + Shift + d   | 删除目前图片                               |
 +--------------------+--------------------------------------------+
 | Space              | 标识目前照片已经处理过                     |
 +--------------------+--------------------------------------------+
