@@ -21,9 +21,9 @@ LabelImg
     :width: 200px
     :align: center
 
-LabelImg 是影像標註工具，它是用python 和 QT 寫成的.
+LabelImg 是图像标注工具，它是用python 和 QT 写成的.
 
-支持的儲存格式包括PASCAL VOC format, YOLO, createML.
+支持的存储格式包括PASCAL VOC format, YOLO, createML.
 
 .. image:: https://raw.githubusercontent.com/tzutalin/labelImg/master/demo/demo3.jpg
      :alt: Demo Image
@@ -37,7 +37,7 @@ LabelImg 是影像標註工具，它是用python 和 QT 寫成的.
 ------------------
 
 
-透過編譯原始碼
+通过源码编译
 ~~~~~~~~~~~~~~~~~
 
 Linux/Ubuntu/Mac 需要 Python 和 `PyQt <https://pypi.org/project/PyQt5/>`__
@@ -74,9 +74,9 @@ Python 3 + Qt5
     python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
 
-Python 3 Virtualenv (推薦方法)
+Python 3 Virtualenv (推荐)
 
-Virtualenv 可以避免版本和相依性問題
+Virtualenv 可以避免版本和依赖問題
 
 .. code:: shell
 
@@ -95,7 +95,7 @@ Windows
 `PyQt5 <https://www.riverbankcomputing.com/software/pyqt/download5>`__
 和 `install lxml <http://lxml.de/installation.html>`__.
 
-安裝並到 `labelImg <#labelimg>`__ 目錄
+安裝并到 `labelImg <#labelimg>`__ 目录
 
 .. code:: shell
 
@@ -108,9 +108,9 @@ Windows
 Windows + Anaconda
 ^^^^^^^^^^^^^^^^^^
 
-下載並安裝 `Anaconda <https://www.anaconda.com/download/#download>`__ (Python 3+)
+下载並安裝 `Anaconda <https://www.anaconda.com/download/#download>`__ (Python 3+)
 
-打開 Anaconda Prompt 然後到 `labelImg <#labelimg>`__ 目錄
+打开 Anaconda Prompt 然后到 `labelImg <#labelimg>`__ 目录
 
 .. code:: shell
 
@@ -148,50 +148,50 @@ Use Docker
 
     make qt4py2;./labelImg.py
 
-`你可以參考影片  <https://youtu.be/nw1GexJzbCI>`__
+`你可以参考影片  <https://youtu.be/nw1GexJzbCI>`__
 
 
 使用方法
 -----
 
-你可以先產生標籤
+你可以先产生标签
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-修改這個檔案
+档案
 `data/predefined\_classes.txt <https://github.com/tzutalin/labelImg/blob/master/data/predefined_classes.txt>`__
 
-快捷鍵
+快捷键
 ~~~~~~~
 
 +--------------------+--------------------------------------------+
-| Ctrl + u           | 讀取所有影像從每個目錄                     |
+| Ctrl + u           | 读取所有图片從每個目录                     |
 +--------------------+--------------------------------------------+
-| Ctrl + r           | 改變標示結果的存檔目錄                     |
+| Ctrl + r           | 改变标识結果的存档目录                     |
 +--------------------+--------------------------------------------+
-| Ctrl + s           | 存檔                                       |
+| Ctrl + s           | 存档                                       |
 +--------------------+--------------------------------------------+
-| Ctrl + d           | 複製目前的標籤和物件的區塊                 |
+| Ctrl + d           | 复制目前的标签和物件的区块                 |
 +--------------------+--------------------------------------------+
-| Ctrl + Shift + d   | 刪除目前影像                               |
+| Ctrl + Shift + d   | 刪除目前图片                               |
 +--------------------+--------------------------------------------+
-| Space              | 標示目前照片已經處理過                     |
+| Space              | 标识目前照片已经处理过                     |
 +--------------------+--------------------------------------------+
-| w                  | 產生新的物件區塊                           |
+| w                  | 产生新的物件区块                           |
 +--------------------+--------------------------------------------+
-| d                  | 下張影像                                   |
+| d                  | 下张图片                                   |
 +--------------------+--------------------------------------------+
-| a                  | 上張影像                                   |
+| a                  | 上张图片                                   |
 +--------------------+--------------------------------------------+
-| del                | 刪除所選的物件區塊                         |
+| del                | 删除所选的物体区块                         |
 +--------------------+--------------------------------------------+
-| Ctrl++             | 放大影像                                   |
+| Ctrl++             | 放大图片                                   |
 +--------------------+--------------------------------------------+
-| Ctrl--             | 縮小影像                                   |
+| Ctrl--             | 缩小图片                                   |
 +--------------------+--------------------------------------------+
-| ↑→↓←               | 移動所選的物件區塊                         |
+| ↑→↓←               | 移动所选的物体区块                         |
 +--------------------+--------------------------------------------+
 
-如何貢獻
+如何贡献
 ~~~~~~~~~~~~~~~~~
 
-歡迎上傳程式碼直接貢獻
+欢迎上传源码直接贡献
